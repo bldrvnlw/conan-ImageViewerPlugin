@@ -17,6 +17,7 @@ class ImageViewerPluginConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = "shared=False"
+    exports_sources = ["CMakeLists.txt", "build_trigger.json"]
     generators = "cmake"
 
     # Custom attributes for Bincrafters recipe conventions
