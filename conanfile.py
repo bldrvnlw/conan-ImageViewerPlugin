@@ -41,6 +41,8 @@ class ImageViewerPluginConan(ConanFile):
         return commit_sha 
         
     def source(self):
+        arr = os.listdir()
+        print('Files: ', arr)
         commit_sha = self._get_commit_sha("build_trigger.json")
         self.run("git clone {0}.git".format(self.validated_url))
         os.chdir("./{0}".format(self._source_subfolder))
