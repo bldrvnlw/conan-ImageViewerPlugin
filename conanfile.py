@@ -1,13 +1,12 @@
 from conans import ConanFile, CMake, tools
 import os
 import shutil
-
+import json
 
 class ImageViewerPluginConan(ConanFile):
     #TODO wrap with Conan build tools to extract version from source
     name = "ImageViewerPlugin"
     version = "0.1.0"
-    branch = "tags/{0}".format(version)
     license = "MIT"
     author = "B. van Lew b.van_lew@lumc.nl"
     # The url for the conan recipe
