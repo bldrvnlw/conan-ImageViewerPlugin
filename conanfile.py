@@ -25,8 +25,8 @@ class ImageViewerPluginConan(ConanFile):
     install_dir = None
     
     requires = (
-        "qt/5.12.2@bvanlew/stable", 
-        "hdps-core/0.1.0@bvanlew/stable"
+        "qt/5.12.4@lkeb/stable", 
+        "hdps-core/0.1.0@lkeb/stable"
     )
 
     # Make a login url to pull the source 
