@@ -1,6 +1,6 @@
 env:
    global:
-     - CONAN_REFERENCE="ImageLoaderPlugin/0.1.0"
+     - CONAN_REFERENCE="ImageViewerPlugin/0.1.0"
      - CONAN_USERNAME="lkeb"
      - CONAN_CHANNEL="stable"     
      - CONAN_LOGIN_USERNAME="admin"
